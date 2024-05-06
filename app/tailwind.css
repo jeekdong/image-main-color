@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-color-box {
+    @apply text-center w-60 flex flex-col items-center border-2 p-2 rounded-lg mr-2 max-w-72;
+  }
+}
